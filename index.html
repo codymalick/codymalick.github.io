@@ -1,60 +1,77 @@
 <!DOCTYPE html>
 <html><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" type="text/css" href="Index_files/style.css">
-<style media="screen">
-body{
-  background: #000;
-  padding-top: 10px;
-}
+<!-- <link rel="stylesheet" type="text/css" href="Index_files/style.css"> -->
+<!-- <link rel="stylesheet" type="text/css" href="font-awesome-4.3.0\css\font-awesome.min.css"> -->
+<link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap.min.css">
 
-p{
-  color: lime;
-  font-family: "Courier";
-  font-size: 20px;
-  margin: 10px 0 0 10px;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 30em;
-  animation: type 4s steps(60, end);
-}
-
-p:nth-child(2){
-  animation: type2 8s steps(60, end);
-}
-
-p a{
-  color: lime;
-  text-decoration: none;
-}
-
-span{
-  animation: blink 1s infinite;
-}
-
-@keyframes type{
-  from { width: 0; }
-}
-
-@keyframes type2{
-  0%{width: 0;}
-  50%{width: 0;}
-  100%{ width: 100; }
-}
-
-@keyframes blink{
-  to{opacity: .0;}
-}
-
-::selection{
-  background: black;
-}  
-</style>
 </head>
   <body>
-    <p>
-      Aaron Sucks and this website is awesome.
-    </p>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 header">
+            <h2>Welcome</h2>
+        </div>
+      </div>
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          
+        </div>
+      </nav>
+
+
+      <div class="list-group">
+
+  </div>
+      <div class="resume">
+        Work Experience:
+        <ul>
+          <li>Intern as a Developer at Business Solutions Group. Employed: May 2014 - Present</li>
+          <ul>
+            <li>Lead Project Developer, team of three</li>
+            <li>Project Management using Scrum</li>
+          </ul>
+          <li>Technician for Client Services at Oregon State University. Employed: June 2013 - May 2014</li>
+          <ul>
+            <li>General technical support</li>
+            <li>Built and imaged computers</li>
+            <li>Wrote basic Powershell scripts for automation of tasks</li>
+          </ul>
+          <li>Web developer at Expansion Computers. Employed:  February 2012 - July 2012</li>
+          <ul>
+            <li>Developing forms using Asp.net MVC for basic data entry</li>
+            <li>SQL script creation</li>
+          </ul>
+        </ul>
+
+        Experience with Computer Science:
+        <ul>
+          <li>Object Oriented Programming. Knowledge and experience. Worked with C++, C#, Python and LUA. Most experienced with C#.</li>
+          <li>Web Design: Experience with Asp.net MVC, Asp.net, PHP, HTML5, CSS, Javascript, and SQL</li>
+          <li>Mobile Development: Experience working with Android native development.</li>
+          <li>Side Projects: World of Warcraft addon (XML, Lua), basic role-playing game (C#), Personal NodeJS Website, Android Application</li>
+          <li>Clubs: Secretary for the OSU App Development Club, Member of the OSU Linux User Group</li>
+          <li>Past Activities: Google Android Hackathon Participant</li>
+        </ul>
+
+        Other Skills:
+        <ul>
+          <li>Strong Communication, Comfortable working with a team, Git, Desktop PC hardware assembly, software troubleshooting, Comfortable using Linux, Windows, and Mac OS, Code Review, Excel programming</li>
+        </ul>
+
+        Education:
+        <ul>
+          <li>Junior in Computer Science with a minor in Business at Oregon State University, graduating June, 2017</li>
+        </ul>
+
+        References:
+        <ul>
+          <li>Alex Lepinski, Business Solutions Group, Manager, Oregon State University, 541-737-0714</li>
+          <li>Samuel Rudin, Client Services, Build Bench Manager, Oregon State University, 541-737-8787</li>
+          <li>Rich Giesige, Client Services, Manager, Oregon State University, 541-737-8787</li>
+        </ul>
+      </div>
+    </div>
 
   </body>
 </html>

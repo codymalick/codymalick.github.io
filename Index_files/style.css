@@ -1,46 +1,29 @@
-body{
-  background: #000;
-  padding-top: 10px;
+body {
+  background: #9DB6CE;
+  color: #333D48;
+  padding: 5%;
+  margin: auto;
+  width: 70%;
 }
 
-p{
-  color: lime;
-  font-family: "Courier";
-  font-size: 20px;
-  margin: 10px 0 0 10px;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 30em;
-  animation: type 4s steps(60, end);
+div.header {
+  color: #9DB6CE;
+  position: relative;
+  transition: all 300ms ease;
+  animation: fade_in_out 5s 1;
 }
 
-p:nth-child(2){
-  animation: type2 8s steps(60, end);
+div.resume {
+  color: #333D48;
+  @-webkit-animation-delay: -5s;
+  animation: fade_in 8s 1;
 }
-
-p a{
-  color: lime;
-  text-decoration: none;
+@-webkit-keyframes fade_in_out {
+    0%   {top: -100px; color: #FFFFFF;}
+    50%  {top: -50px; color: #333D48;}
+    100%  {top: 0px; color: #9DB6CE;}
 }
-
-span{
-  animation: blink 1s infinite;
-}
-
-@keyframes type{
-  from { width: 0; }
-}
-
-@keyframes type2{
-  0%{width: 0;}
-  50%{width: 0;}
-  100%{ width: 100; }
-}
-
-@keyframes blink{
-  to{opacity: .0;}
-}
-
-::selection{
-  background: black;
+@-webkit-keyframes fade_in {
+    0%   {left: 0px; color: #9DB6CE;}
+    100%  {left: 100px; color: #333D48;}
 }
