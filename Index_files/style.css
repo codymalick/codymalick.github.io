@@ -1,6 +1,10 @@
+* {
+  font-family: 'Ubuntu Mono', ;
+}
+
 body {
-  background: #9DB6CE;
-  color: #333D48;
+  background: #9DB6CE !important;
+  color: #333D48 !important;
   padding: 5%;
   margin: auto;
   width: 70%;
@@ -10,18 +14,34 @@ div.header {
   color: #9DB6CE;
   position: relative;
   transition: all 300ms ease;
-  animation: fade_in_out 5s 1;
+  animation: fade_in_out 4s 1;
 }
 
-div.resume {
+div.name {
+
+}
+
+div.resume_1 {
   color: #333D48;
-  @-webkit-animation-delay: -5s;
-  animation: fade_in 8s 1;
+  -webkit-animation-delay: 2s;
+  animation: fade_in 2s 1;
+}
+
+div.resume_2 {
+  color: #333D48;
+  @-webkit-animation-delay: 5s;
+  animation: fade_in 4s 1;
+}
+
+div.resume_3 {
+  color: #333D48;
+  @-webkit-animation-delay: 5s;
+  animation: fade_in 6s 1;
 }
 @-webkit-keyframes fade_in_out {
-    0%   {top: -100px; color: #FFFFFF;}
-    50%  {top: -50px; color: #333D48;}
-    100%  {top: 0px; color: #9DB6CE;}
+    0%   {top: -100px; color: #9DB6CE;}
+    50%  {top: 0px; color: #333D48;}
+    100%  {top: 50px; color: #9DB6CE;}
 }
 @-webkit-keyframes fade_in {
     0%   {left: 0px; color: #9DB6CE;}
