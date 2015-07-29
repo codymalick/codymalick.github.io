@@ -14,12 +14,12 @@ body {
 }
 div.nav {
   background: #CEDAE6;
-  padding: 20%, 0%, 0%, 0%;
   border-top: solid;
   border-right: solid;
   border-bottom: solid;
   border-width: thin;
-  min-width: 15%;
+  min-width: 160px;
+
   min-height: 50%;
   list-style: none;
   border-top-right-radius: 5px;
@@ -29,7 +29,8 @@ div.nav {
 div.nav ul {
   padding-left: 5%;
   padding-right: 5%;
-  float: right;
+  margin: auto;
+
 }
 
 div.header {
@@ -66,7 +67,7 @@ div.resume_3 {
 @-webkit-keyframes fade_in_out {
     0%   {left: -100px; color: #9DB6CE;}
     50%  {left: 0px; color: #333D48;}
-    100%  {left: 100px; color: #9DB6CE;}
+    100%  {left: 75px; color: #9DB6CE;}
 }
 @-webkit-keyframes fade_in {
     0%   {left: 0px; color: #9DB6CE;}
