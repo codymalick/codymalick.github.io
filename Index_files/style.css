@@ -3,67 +3,62 @@
 }
 
 body {
-  background: #9DB6CE !important;
-  color: #333D48 !important;
-  margin: auto;
+  /*background: #9DB6CE !important;
+  color: #333D48 !important;*/
+  margin: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+
+  justify-content: center;
 
 }
 
-#nav {
-  list-style: none !important;
-}
+/*
 div.nav {
   background: #CEDAE6;
-  border-top: solid;
-  border-right: solid;
-  border-bottom: solid;
+  border: solid;
   border-width: thin;
-  min-width: 160px;
-
-  min-height: 50%;
   list-style: none;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
+  min-height: 50px;
+  max-height: 5%;
+
+
 }
 
 div.nav ul {
-  padding-left: 5%;
-  padding-right: 5%;
+  width: 70%;
   margin: auto;
 
 }
+div.nav ul li {
+  display: inline-block;
+  float: left;
+  width: 150px;*/
 
-div.header {
-  color: #9DB6CE;
-  position: relative;
-  transition: all 300ms ease;
-  animation: fade_in_out 4s 1;
-  padding-left: 5%;
-  padding-top: 5%;
 }
+
+
 
 div.name {
-  padding-top: 4%;
-  padding-bottom: 1%;
+  padding: 100px !important;
+  float: left;
 }
 
-div.resume_1 {
-  color: #333D48;
-  -webkit-animation-delay: 2s;
-  animation: fade_in 2s 1;
+div.portrait {
+  border-radius: 50%;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+  background-image: url(https://avatars0.githubusercontent.com/u/3628288?v=3);
+  background-size: 100%;
+  margin: 3%;
+  padding-right: 5%;
+  display: inline-block;
+  float: right;
 }
 
-div.resume_2 {
-  color: #333D48;
-  @-webkit-animation-delay: 5s;
-  animation: fade_in 4s 1;
-}
 
-div.resume_3 {
-  color: #333D48;
-  @-webkit-animation-delay: 5s;
-  animation: fade_in 6s 1;
-}
 @-webkit-keyframes fade_in_out {
     0%   {left: -100px; color: #9DB6CE;}
     50%  {left: 0px; color: #333D48;}
