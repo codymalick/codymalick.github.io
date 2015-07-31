@@ -1,47 +1,26 @@
 * {
   font-family: 'Ubuntu Mono', ;
+
+}
+
+div.nav {
+
 }
 
 body {
-  /*background: #9DB6CE !important;
-  color: #333D48 !important;*/
-  margin: 10%;
   padding-left: 10%;
   padding-right: 10%;
-
   justify-content: center;
-
+  margin: 3% !important;
 }
-
-/*
-div.nav {
-  background: #CEDAE6;
-  border: solid;
-  border-width: thin;
-  list-style: none;
-  min-height: 50px;
-  max-height: 5%;
-
-
-}
-
-div.nav ul {
-  width: 70%;
-  margin: auto;
-
-}
-div.nav ul li {
-  display: inline-block;
-  float: left;
-  width: 150px;*/
-
-}
-
-
 
 div.name {
-  padding: 100px !important;
+
   float: left;
+}
+
+div.resume {
+  margin: 5%;
 }
 
 div.portrait {
@@ -52,8 +31,7 @@ div.portrait {
   height: 150px;
   background-image: url(https://avatars0.githubusercontent.com/u/3628288?v=3);
   background-size: 100%;
-  margin: 3%;
-  padding-right: 5%;
+  margin: 3% !important;
   display: inline-block;
   float: right;
 }
