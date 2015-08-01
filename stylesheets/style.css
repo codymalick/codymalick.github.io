@@ -1,0 +1,48 @@
+* {
+  font-family: 'Ubuntu Mono', ;
+
+}
+
+div.nav {
+
+}
+
+body {
+  padding-left: 10%;
+  padding-right: 10%;
+  justify-content: center;
+  margin: 3% !important;
+}
+
+div.name {
+
+  float: left;
+}
+
+div.resume {
+  margin: 5%;
+}
+
+div.portrait {
+  border-radius: 50%;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+  background-image: url(https://avatars0.githubusercontent.com/u/3628288?v=3);
+  background-size: 100%;
+  margin: 3% !important;
+  display: inline-block;
+  float: right;
+}
+
+
+@-webkit-keyframes fade_in_out {
+    0%   {left: -100px; color: #9DB6CE;}
+    50%  {left: 0px; color: #333D48;}
+    100%  {left: 75px; color: #9DB6CE;}
+}
+@-webkit-keyframes fade_in {
+    0%   {left: 0px; color: #9DB6CE;}
+    100%  {left: 100px; color: #333D48;}
+}
