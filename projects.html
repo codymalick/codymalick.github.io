@@ -33,15 +33,11 @@
           </div>
         </div>
         <div class="row">
-          <div ng-repeat="project in proj.projects">
-            <h3>{{project.name}}</h3>
-            <div class="panel-content">
-              <p>
-                {{project.desc}}
-              </p>
-              <p>
-                <a href={{project.url}}>{{project.url}}</a>
-              </p>
+          <div ng-repeat="project in proj.projects" class="panel panel-default">
+            <div class="panel-content resume">
+                <h3>{{project.name}}</h3>
+                <p>{{project.desc}}</p>
+                <p><a href={{project.url}}>{{project.url}}</a></p>
             </div>
           </div>
         </div>
