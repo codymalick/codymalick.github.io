@@ -7,7 +7,7 @@
     });
     app.controller('ProjectController', function() {
       var xhr = new XMLHttpRequest();
-      
+
 
 
       xhr.open("GET", "https://api.github.com/users/codymalick/repos", false);
@@ -19,14 +19,6 @@
 
       var items = [];
       angular.forEach(data, function(project) {
-
-        // var xhr0 = new XMLHttpRequest();
-        // xhr0.open("GET", "https://api.github.com/repos/codymalick/codymalick.github.io/stats/contributors");
-        // xhr0.send();
-        // console.log(xhr0.responseText);
-        // console.log(project.name);
-        // var contributors = JSON.parse(xhr0.responseText);
-        // console.log(contributors);
 
         var proj_data = {
           name : project.name,
