@@ -20,7 +20,8 @@ div.name {
 }
 
 div.resume {
-  margin: 5%;
+  margin: 3%;
+  padding-bottom: 3%;
 }
 
 div.portrait {
